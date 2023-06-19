@@ -6,8 +6,8 @@
   Théorie de l'information par : Mme Massou
 </h1>
 
-<h4 align="center">Une petite rep GitHub ou je stocke mes codes écrits lors de mon apprentissage chez Mme Massou.  
-Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">LinkedIn</a>.</h4>
+<h4 align="center">Une petite rep GitHub ou je stocke mes codes écrits lors de mon apprentissage chez Mme Massou.</h4>
+<h4 align="center">Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">LinkedIn</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
