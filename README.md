@@ -1,17 +1,13 @@
 
 <h1 align="center">
   <br>
-<img src="" alt="ENSA TANGER" width="200"></a>
+<img src="https://cdn.discordapp.com/attachments/1115407464683278366/1120500378505596948/ENSATANGER_logo20230124154134.png" alt="ENSA TANGER" width="200"></a>
   <br>
-  Théorie de l'information
-  <br>
-  <br>
-  Encadré par : Mme Massou
-  <br>
+  Théorie de l'information par : Mme Massou
 </h1>
 
-<h4 align="center">Une petite rep GitHub ou je stocke mes codes écrits lors de mon apprentissage chez Mme Massou.
-Ceci est mon  <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">LinkedIn</a>.</h4>
+<h4 align="center">Une petite rep GitHub ou je stocke mes codes écrits lors de mon apprentissage chez Mme Massou.  
+Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">LinkedIn</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
