@@ -1,10 +1,12 @@
 
 <h1 align="center">
   <br>
-<img src="https://www.guide-metiers.ma/wp-content/uploads/2019/02/ensatanger.couleur.png" alt="ENSA TANGER" width="200"></a>
+<img src="" alt="ENSA TANGER" width="200"></a>
   <br>
   Théorie de l'information
-	Encadré par : Mme Massou
+  <br>
+  <br>
+  Encadré par : Mme Massou
   <br>
 </h1>
 
