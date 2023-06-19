@@ -3,7 +3,9 @@
   <br>
 <img src="https://cdn.discordapp.com/attachments/1115407464683278366/1120500378505596948/ENSATANGER_logo20230124154134.png" alt="ENSA TANGER" width="200"></a>
   <br>
+  <br>	
   Théorie de l'information par : Mme Massou
+  <br>
 </h1>
 
 <h4 align="center">Une petite rep GitHub ou je stocke mes codes écrits lors de mon apprentissage chez Mme Massou.</h4>
