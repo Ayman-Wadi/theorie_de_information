@@ -3,30 +3,34 @@
   <br>
 <img src="https://cdn.discordapp.com/attachments/1122367085260062880/1123021349691068666/ensa_logo.png" alt="ENSA TANGER" width="200"></a>
   <br>
-  -Les TP de la Théorie de l'information
   <br>
+ Travaux pratiques de la théorie de l'information
 </h1>
-<h2 align="center">
-<br>	
-  -Travail de Ayman Wadi
-  -Encadré par professeur Siham Massou
-<br>
+<h2 align="center">	
+Un travail de : Ayman Wadi 
+<br>Encadré par : Mme Siham Massou.
 </h2>
 
-<h4 align="center">Une petite rep GitHub ou je stocke mes codes écrits lors de mon apprentissage chez Mme Massou.</h4>
-<h4 align="center">Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">LinkedIn</a>.</h4>
+<p align="center">Ce répertoire contient mes codes Python pour l'apprentissage de la programmation avec Mme Massou. Vous y trouverez différents fichiers, tels que des scripts, des données, et des notes de cours. J'ai créé ce répertoire sur GitHub pour sauvegarder mes codes en toute sécurité et pour les partager avec d'autres développeurs. N'hésitez pas à me contacter pour toute question ou suggestion d'amélioration.
+<br>
+Merci de visiter mon répertoire GitHub !
+<br>
+Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">LinkedIn</a>.
+</p>
+
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
+  <a>
+	<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
   </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  <a>
+	<img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green">
   </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  <a>
+	<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)">
+  </a>
+  <a>
+	<img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white">
   </a>
 </p>
 
