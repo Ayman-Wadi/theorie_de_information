@@ -1,10 +1,13 @@
 
 <h1 align="center">
   <br>
-<img src="https://cdn.discordapp.com/attachments/1115407464683278366/1120500378505596948/ENSATANGER_logo20230124154134.png" alt="ENSA TANGER" width="200"></a>
+<img src="https://cdn.discordapp.com/attachments/1122367085260062880/1123021349691068666/ensa_logo.png" alt="ENSA TANGER" width="200"></a>
   <br>
   <br>	
-  Théorie de l'information par : Mme Massou
+  Les TP de la Théorie de l'information
+  <br>
+  <br>
+	Encadré par Mme Siham Massou
   <br>
 </h1>
 
