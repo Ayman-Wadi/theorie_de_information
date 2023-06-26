@@ -4,10 +4,9 @@
 <img src="https://cdn.discordapp.com/attachments/1122367085260062880/1123021349691068666/ensa_logo.png" alt="ENSA TANGER" width="200"></a>
   <br>
   <br>	
-  Les TP de la Théorie de l'information
-  <br>
-  <br>
-	Encadré par Mme Siham Massou
+  *Les TP de la Théorie de l'information
+  -Travail de Ayman Wadi
+  -Encadré par professeur Siham Massou
   <br>
 </h1>
 
