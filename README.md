@@ -5,12 +5,11 @@
   <br>
   <br>
  Travaux pratiques de la théorie de l'information
-  <br>
 </h1>
-<h2 align="center">	
+<h3 align="center">	
 Un travail de : Ayman Wadi 
 <br>Encadré par : Mme Siham Massou.
-</h2>
+</h3>
 
 <p align="center">Ce répertoire contient mes codes Python pour l'apprentissage de la programmation avec Mme Massou. Vous y trouverez différents fichiers, tels que des scripts, des données, et des notes de cours. J'ai créé ce répertoire sur GitHub pour sauvegarder mes codes en toute sécurité et pour les partager avec d'autres développeurs. N'hésitez pas à me contacter pour toute question ou suggestion d'amélioration.
 <br>
