@@ -53,7 +53,6 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 
 <p>La théorie de l'information est une branche des mathématiques appliquées qui étudie la quantité d'information contenue dans des données et les méthodes de traitement, de transmission et de stockage de l'information. Elle a été développée par Claude Shannon en 1948, mais a des racines plus anciennes dans la théorie de la communication et la statistique.</p>
 <p>La théorie de l'information traite de plusieurs concepts fondamentaux, notamment :
-
  - L'entropie : mesure de la quantité de désordre dans un système d'informations.
  - Le canal de communication : le moyen par lequel l'information est transmise d'un point à un autre, souvent soumis à des perturbations et des bruits.
  - Le codage de l'information : la représentation de l'information sous une forme qui peut être stockée, transmise et traitée efficacement.
