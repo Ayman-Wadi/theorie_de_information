@@ -39,13 +39,13 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
   <a href="#Introduction">Introduction</a>
 	<br>
   <a href="#Arithmétique flottante">Arithmetique flottante</a> •
-  <a href="#Hamming">Hamming</a> •
-  <a href="#Huffman">Huffman</a> •
-  <a href="#LZ78">LZ78</a> •
-  <a href="#Shannon Fano">Shannon Fano</a>
+  <a href="#Hamming">Codage Hamming</a> •
+  <a href="#Huffman">Codage Huffman</a> •
+  <a href="#LZ78">Codage LZ78</a> •
+  <a href="#Shannon Fano">Cadage Shannon Fano</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif)
 
 ## Introduction
 
