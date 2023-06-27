@@ -146,8 +146,7 @@ faire
         incrémenter la fréquence du symbole dans la table de hachage
 
 arbre ← nouvelle racine
-pour chaque symbole et sa fréquence dans la table de frequence 
-faire
+pour chaque symbole et sa fréquence dans la table de frequence Faire
     ajouter un nœud feuille pour le symbole avec sa fréquence comme priorité dans la file de priorité
 	tant que la taille de la file de priorité est supérieure à 1 faire
    	 nœud1 ← nœud ayant la plus petite priorité dans la file de priorité
@@ -158,8 +157,7 @@ faire
     ajouter fusion à la file de priorité
 racine ← nœud restant dans la file de priorité
 
-codes ← nouvelle table de frequence
-faire
+codes ← nouvelle table de frequence Faire
     si nœud est une feuille alors
         ajouter le symbole et son code à la table des codes
     sinon
@@ -177,50 +175,79 @@ Lien pour voir le code écrit en language Python : [Arithmétique.py](https://gi
 > Ce codage est le plus compliqué , l'importation de plusieurs bibliothéque était une nécessité.
 
 
-## Credits
+## Codage Lz78
 
-En codage arithmétique, les caractères sont encodés en utilisant des intervalles. Le résultat de ce codage est un nombre réel compris entre 0 et 1, qui est construit en associant à chaque symbole une portion de l'intervalle [0, 1[ dont la taille est proportionnelle à la probabilité d'occurrence de ce symbole. L'ordre dans lequel les symboles sont associés à des portions de l'intervalle n'a pas d'importance, tant qu'il est le même pour le codage et le décodage.
+Le codage LZ78 est un algorithme de compression de données sans perte qui utilise un dictionnaire pour stocker les séquences de symboles déjà rencontrées dans la séquence de données à compresser. L'idée de base est de remplacer les séquences de symboles répétitives par des références à leur première occurrence dans le dictionnaire, suivies du symbole suivant qui n'a pas encore été vu.
 
-L'algorithme du codage arithmétique flottante est le suivant :
+L'algorithme du codage Lz78  est le suivant :
 ```bash
-Soit bornelnf ← 0.0
-Soit borneSup ←	1.0
-Tant que il y a des symboles à coder Faire
-  C ← symbole à coder
-  Soient x, y les bornes de l'intervalle correspondant à C dans la table
-  taille ← borneSup — bornelnf;
-  borneSup ← bornelnf + taille * y
-  bornelnf ← bornelnf + taille * x
-Fin Tant que
-Retourner borneSup
+dictionnaire ← dictionnaire vide
+séquence_codée ← nouvelle liste de paires (index, symbole suivant)
+préfixe ← ""
+index ← 0
+
+pour chaque symbole dans la séquence d'entrée Faire
+    nouvelle_chaine ← préfixe + symbole
+    si nouvelle_chaine est dans le dictionnaire :
+        préfixe ← nouvelle_chaine
+        index ← index de nouvelle_chaine dans le dictionnaire
+    sinon
+        ajouter la paire (index, symbole) à la séquence encodée
+        ajouter nouvelle_chaine au dictionnaire avec un nouvel index
+        préfixe ← ""
+        index ← 0
+
+si préfixe n'est pas vide :
+    ajouter la paire (index, "") à la séquence codée
+
+retourner séquence_codée
+
 ```
-Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
+Lien pour voir le code écrit en language Python : [lz78.py](https://github.com/lord-avigi/theorie_de_information/blob/main/LZ78.py)
 
  > **Remarque: **
-> Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
+> Ce codage est simple car il utilise un dictionnaire et une seule condition.
 
-## Related
 
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
+## Codage de Shanon Fano
 
-## Support
+Le codage de Shannon-Fano est un algorithme de compression de données sans perte qui utilise des codes binaires de longueur variable pour représenter les symboles dans une séquence de données. L'algorithme a été développé par Claude Shannon et Robert Fano en 1949.
 
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+L'algorithme du codage Shannon Fano est le suivant :
+```bash
+séquence_symboles ← séquence de symboles à encoder
+table_frequence ← table de fréquence des symboles dans la séquence
+table_codes ← nouvelle table de hachage pour stocker les codes de chaque symbole
 
-<p>Or</p> 
+fonction diviser_grouper(symboles, début, fin)
+    si début >= fin alors
+        retourner
+    sinon
+        somme ← somme des fréquences des symboles entre les indices début et fin dans la table de fréquence
+        moitié ← somme / 2
+        somme_partielle ← 0
+        index ← début
+        tant que somme_partielle < moitié faire
+            somme_partielle ← somme_partielle + fréquence[symboles[index]]
+            index ← index + 1
+        si index == début alors
+            index ← index + 1
+        pour i allant de début à index - 1 faire
+            ajouter "0" au code du symbole[i] dans la table des codes
+        pour i allant de index à fin faire
+            ajouter "1" au code du symbole[i] dans la table des codes
+        diviser_grouper(symboles, début, index - 1)
+        diviser_grouper(symboles, index, fin)
 
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+diviser_grouper(séquence_symboles, 0, longueur(séquence_symboles) - 1)
 
-## You may also like...
+retourner table_codes
+```
+Lien pour voir le code écrit en language Python : [shannon_fano.py](https://github.com/lord-avigi/theorie_de_information/blob/main/Shannon_Fano.py)
 
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
+ > **Remarque: **
+> Ce codage est légerement difficile car il utilise une boucle itérative.
 
-## License
-
-MIT
 
 ---
 
