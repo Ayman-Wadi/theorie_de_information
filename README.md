@@ -38,11 +38,11 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 <p align="center">
  • <a href="#Introduction">Introduction</a> •
 	<br>
-  <a href="#Arithmétique flottante">Arithmétique flottante</a> •
-  <a href="#Codage de Hamming">Codage de Hamming</a> •
-  <a href="#Codage de Huffman">Codage de Huffman</a> •
-  <a href="#Codage Lz78">Codage Lz78</a> •
-  <a href="#Codage de Shanon Fano">Codage de Shanon Fano</a>
+  <a href="#Arithmétique-flottante">Arithmétique flottante</a> •
+  <a href="#Codage-de-Hamming">Codage de Hamming</a> •
+  <a href="#Codage-de-Huffman">Codage de Huffman</a> •
+  <a href="#Codage-Lz78">Codage Lz78</a> •
+  <a href="#Codage-de-Shanon-Fano">Codage de Shanon Fano</a>
 </p>
 
 <p align="center">
