@@ -258,5 +258,6 @@ Lien pour voir le code écrit en language Python : [shannon_fano.py](https://git
 
 <h1 align="center">
   <br>
-Merci d'avoir consulté ce repo ! J'espère qu'il vous a été utile et qu'il vous a permis d'apprendre quelque chose de nouveau. Bonne journée !"
+Merci d'avoir consulté ce repo ! J'espère qu'il vous a été utile et qu'il vous a permis d'apprendre quelque chose de nouveau. <br>
+Bonne journée !
 </h1>
