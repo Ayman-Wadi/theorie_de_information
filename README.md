@@ -12,7 +12,7 @@ Un travail de : Ayman Wadi
 </h3>
 
 <p align="center"> <br>
-	Ce répertoire contient mes codes Python pour l'apprentissage de la programmation avec Mme Massou. Vous y trouverez différents fichiers, tels que des scripts, des données, et des notes de cours. J'ai créé ce répertoire sur GitHub pour sauvegarder mes codes en toute sécurité et pour les partager avec d'autres développeurs. N'hésitez pas à me contacter pour toute question ou suggestion d'amélioration.
+	Ce répertoire contient mes codes Python pour l'apprentissage de la programmation avec Mme Massou. Vous y trouverez différents fichiers, tels que des scripts, des algorithmes , et des notes de cours. J'ai créé ce répertoire sur GitHub pour sauvegarder mes codes en toute sécurité et pour les partager avec d'autres développeurs. N'hésitez pas à me contacter pour toute question ou suggestion d'amélioration.
 <br>
 Merci de visiter mon répertoire GitHub !
 <br>
@@ -36,13 +36,13 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 </p>
 
 <p align="center">
-  <a href="#Introduction">Introduction</a>
+ • <a href="#Introduction">Introduction</a> •
 	<br>
-  <a href="#Arithmétique flottante">Arithmetique flottante</a> •
-  <a href="#Hamming">Codage Hamming</a> •
-  <a href="#Huffman">Codage Huffman</a> •
-  <a href="#LZ78">Codage LZ78</a> •
-  <a href="#Shannon Fano">Cadage Shannon Fano</a>
+  <a href="#Arithmétique flottante">Arithmétique flottante</a> •
+  <a href="#Hamming">Codage de Hamming</a> •
+  <a href="#Huffman">Codage de Huffman</a> •
+  <a href="#LZ78">Codage Lz78</a> •
+  <a href="#Shannon Fano">Codage de Shanon Fano</a>
 </p>
 
 <p align="center">
