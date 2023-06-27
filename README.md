@@ -36,17 +36,17 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 </p>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#Introduction">Introduction</a> •
+  <a href="#Arithmétique flottante">Arithmetique flottante</a> •
+  <a href="#Hamming">Hamming</a> •
+  <a href="#Huffman">Huffman</a> •
+  <a href="#LZ78">LZ78</a> •
+  <a href="#Shannon Fano">Shannon Fano</a> •
 </p>
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-## Key Features
+## Introduction
 
 * LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
@@ -66,7 +66,7 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 * Cross platform
   - Windows, macOS and Linux ready.
 
-## How To Use
+## Arithmétique flottante
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
