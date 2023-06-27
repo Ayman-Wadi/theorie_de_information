@@ -72,6 +72,7 @@ En codage arithmétique, les caractères sont encodés en utilisant des interval
 
 L'algorithme du codage arithmétique flottante est le suivant :
 ```bash
+'
 Soit bornelnf ← 0.0
 Soit borneSup ←	1.0
 Tant que il y a des symboles à coder Faire
@@ -82,6 +83,7 @@ Tant que il y a des symboles à coder Faire
   bornelnf ← bornelnf + taille * x
 Fin Tant que
 Retourner borneSup
+'
 ```
 Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
 
