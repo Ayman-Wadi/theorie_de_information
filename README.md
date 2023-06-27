@@ -46,7 +46,7 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 </p>
 
 <p align="center">
-![screenshot](https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif)
+<img  src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif" alt="Coding">
 </p>
 
 ## Introduction
