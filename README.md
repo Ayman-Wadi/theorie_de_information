@@ -86,7 +86,9 @@ Fin Tant que
 Retourner borneSup
 ```
 
-> **Remarque**
+Lien pour voir le code : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
+
+> **Remarque: **
 > Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
 
 
