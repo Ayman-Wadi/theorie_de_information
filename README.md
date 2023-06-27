@@ -91,49 +91,91 @@ Lien pour voir le code écrit en language Python : [Arithmétique.py](https://gi
 > Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
 
 
-## Download
+## Codage de Hamming
 
-En codage arithmétique, les caractères sont encodés en utilisant des intervalles. Le résultat de ce codage est un nombre réel compris entre 0 et 1, qui est construit en associant à chaque symbole une portion de l'intervalle [0, 1[ dont la taille est proportionnelle à la probabilité d'occurrence de ce symbole. L'ordre dans lequel les symboles sont associés à des portions de l'intervalle n'a pas d'importance, tant qu'il est le même pour le codage et le décodage.
+Le codage de Hamming est une technique de correction d'erreur qui utilise des bits de parité pour détecter et corriger les erreurs de transmission de données binaires. Les bits de parité sont ajoutés à la séquence de bits d'origine pour former une séquence de bits plus longue. Lorsque les données sont transmises, la séquence de bits est vérifiée pour détecter les erreurs et les bits de parité sont utilisés pour corriger l'erreur. Bien que largement utilisée, cette technique a une limite quant à la quantité d'erreurs qu'elle peut détecter et corriger, et l'ajout de bits de parité peut augmenter la taille de la séquence de bits.
 
 L'algorithme du codage arithmétique flottante est le suivant :
 ```bash
-Soit bornelnf ← 0.0
-Soit borneSup ←	1.0
-Tant que il y a des symboles à coder Faire
-  C ← symbole à coder
-  Soient x, y les bornes de l'intervalle correspondant à C dans la table
-  taille ← borneSup — bornelnf;
-  borneSup ← bornelnf + taille * y
-  bornelnf ← bornelnf + taille * x
-Fin Tant que
-Retourner borneSup
+msg ← message à envoyer
+m ← longueur du message
+r ← nombre de bits de correction
+n ← longueur totale du message à envoyer (m + r)
+code ← nouveau tableau de n bits initialisé à 0
+puissance_deux ← 1
+i ← 0
+j ← 0
+
+tant que (m + r + 1) > puissance_deux faire
+    r ← r + 1
+    puissance_deux ← 2^r - 1 - r
+
+pour i allant de 1 à n faire
+    si i est une puissance de 2 alors
+        passer à l'itération suivante
+    sinon
+        code[i] ← bit j du message
+        j ← j + 1
+
+pour i allant de 0 à r - 1 faire
+    xor_sum ← 0
+    pour j allant de 1 à n faire
+        si j & (2^i) == (2^i) alors
+            xor_sum ← xor_sum xor code[j]
+    code[2^i] ← xor_sum
+
+retourner code Hamming
 ```
 Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
 
  > **Remarque: **
-> Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
+> Ce codage est moyennement difficile à coder car son algorithme utilise des calcul matricielle et plusieurs boucles . 
 
-## Emailware
 
-En codage arithmétique, les caractères sont encodés en utilisant des intervalles. Le résultat de ce codage est un nombre réel compris entre 0 et 1, qui est construit en associant à chaque symbole une portion de l'intervalle [0, 1[ dont la taille est proportionnelle à la probabilité d'occurrence de ce symbole. L'ordre dans lequel les symboles sont associés à des portions de l'intervalle n'a pas d'importance, tant qu'il est le même pour le codage et le décodage.
+## Codage de Huffman
 
-L'algorithme du codage arithmétique flottante est le suivant :
+Le codage de Huffman est une technique de compression de données qui utilise des longueurs de code variables pour représenter des symboles. Les symboles les plus fréquents sont représentés par des codes plus courts, tandis que les symboles moins fréquents sont représentés par des codes plus longs. Cette technique permet de réduire la taille de la séquence de données en utilisant moins de bits pour représenter les symboles les plus fréquents. Le codage de Huffman est largement utilisé dans les systèmes de compression de fichiers et de transmission de données pour réduire la taille des données à transférer.
+
+L'algorithme du codage de Huffman est le suivant :
 ```bash
-Soit bornelnf ← 0.0
-Soit borneSup ←	1.0
-Tant que il y a des symboles à coder Faire
-  C ← symbole à coder
-  Soient x, y les bornes de l'intervalle correspondant à C dans la table
-  taille ← borneSup — bornelnf;
-  borneSup ← bornelnf + taille * y
-  bornelnf ← bornelnf + taille * x
-Fin Tant que
-Retourner borneSup
+frequence ← nouvelle table de frequence pour chaque symbole dans la séquence  ←
+faire
+    si le symbole n'est pas dans la table de frequence alors:
+        ajouter le symbole à la table de frequence avec une fréquence de 1
+    sinon
+        incrémenter la fréquence du symbole dans la table de hachage
+
+arbre ← nouvelle racine
+pour chaque symbole et sa fréquence dans la table de frequence 
+faire
+    ajouter un nœud feuille pour le symbole avec sa fréquence comme priorité dans la file de priorité
+	tant que la taille de la file de priorité est supérieure à 1 faire
+   	 nœud1 ← nœud ayant la plus petite priorité dans la file de priorité
+   	 enlever nœud1 de la file de priorité
+   	 nœud2 ← nœud ayant la deuxième plus petite priorité dans la file de priorité
+   	 enlever nœud2 de la file de priorité
+    fusion ← nouveau nœud pour la fusion des nœuds 1 et 2, avec une priorité égale à la somme des priorités de nœud1 et nœud2
+    ajouter fusion à la file de priorité
+racine ← nœud restant dans la file de priorité
+
+codes ← nouvelle table de frequence
+faire
+    si nœud est une feuille alors
+        ajouter le symbole et son code à la table des codes
+    sinon
+        assigner_codes(racine gauche de nœud, code + "0")
+        assigner_codes(racine droit de nœud, code + "1")
+assigner_codes(racine, "")
+
+séquence_encodée ← ""
+pour chaque symbole dans la séquence faire
+    ajouter le code correspondant à la table des codes à la séquence encodée
 ```
 Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
 
  > **Remarque: **
-> Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
+> Ce codage est le plus compliqué , l'importation de plusieurs bibliothéque était une nécessité.
+
 
 ## Credits
 
