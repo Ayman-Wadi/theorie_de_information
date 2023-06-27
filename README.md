@@ -70,19 +70,20 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 
 ## Arithmétique flottante
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+En codage arithmétique, les caractères sont encodés en utilisant des intervalles. Le résultat de ce codage est un nombre réel compris entre 0 et 1, qui est construit en associant à chaque symbole une portion de l'intervalle [0, 1[ dont la taille est proportionnelle à la probabilité d'occurrence de ce symbole. L'ordre dans lequel les symboles sont associés à des portions de l'intervalle n'a pas d'importance, tant qu'il est le même pour le codage et le décodage.
 
+L'algorithme du codage arithmétique flottante est le suivant :
 ```bash
 Soit bornelnf ← 0.0
 Soit borneSup ←	1.0
-**Tant que** il y a des symboles à coder **Faire**
+Tant que il y a des symboles à coder Faire
   C ← symbole à coder
   Soient x, y les bornes de l'intervalle correspondant à C dans la table
   taille ← borneSup — bornelnf;
   borneSup ← bornelnf + taille * y
   bornelnf ← bornelnf + taille * x
-**Fin Tant que**
-**Retourner** borneSup
+Fin Tant que
+Retourner borneSup
 ```
 
 > **Note**
