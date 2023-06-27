@@ -36,12 +36,13 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 </p>
 
 <p align="center">
-  <a href="#Introduction">Introduction</a> •
+  <a href="#Introduction">Introduction</a>
+	<br>
   <a href="#Arithmétique flottante">Arithmetique flottante</a> •
   <a href="#Hamming">Hamming</a> •
   <a href="#Huffman">Huffman</a> •
   <a href="#LZ78">LZ78</a> •
-  <a href="#Shannon Fano">Shannon Fano</a> •
+  <a href="#Shannon Fano">Shannon Fano</a>
 </p>
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
