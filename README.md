@@ -75,14 +75,14 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ```bash
 Soit bornelnf ← 0.0
 Soit borneSup ←	1.0
-Tant que il y a des symboles à coder Faire
+**Tant que** il y a des symboles à coder **Faire**
   C ← symbole à coder
   Soient x, y les bornes de l'intervalle correspondant à C dans la table
   taille ← borneSup — bornelnf;
   borneSup ← bornelnf + taille * y
   bornelnf ← bornelnf + taille * x
-Fin Tant que
-Retourner borneSup
+**Fin Tant que**
+**Retourner** borneSup
 ```
 
 > **Note**
