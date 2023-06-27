@@ -86,8 +86,8 @@ Fin Tant que
 Retourner borneSup
 ```
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+> **Remarque**
+> Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
 
 
 ## Download
