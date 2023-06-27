@@ -95,8 +95,8 @@ Lien pour voir le code écrit en language Python : [Arithmétique.py](https://gi
 
 Le codage de Hamming est une technique de correction d'erreur qui utilise des bits de parité pour détecter et corriger les erreurs de transmission de données binaires. Les bits de parité sont ajoutés à la séquence de bits d'origine pour former une séquence de bits plus longue. Lorsque les données sont transmises, la séquence de bits est vérifiée pour détecter les erreurs et les bits de parité sont utilisés pour corriger l'erreur. Bien que largement utilisée, cette technique a une limite quant à la quantité d'erreurs qu'elle peut détecter et corriger, et l'ajout de bits de parité peut augmenter la taille de la séquence de bits.
 
-L'algorithme du codage arithmétique flottante est le suivant :
-```bash
+L'algorithme du codage de Hamming est le suivant :
+```bash '
 msg ← message à envoyer
 m ← longueur du message
 r ← nombre de bits de correction
@@ -126,10 +126,10 @@ pour i allant de 0 à r - 1 faire
 
 retourner code Hamming
 ```
-Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
+Lien pour voir le code écrit en language Python : [Hamming.py](https://github.com/lord-avigi/theorie_de_information/blob/main/hamming.py)
 
  > **Remarque: **
-> Ce codage est moyennement difficile à coder car son algorithme utilise des calcul matricielle et plusieurs boucles . 
+> Ce codage est moyennement difficile à coder car son algorithme utilise des calculs matricielles et plusieurs boucles . 
 
 
 <br>
