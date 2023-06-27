@@ -72,7 +72,6 @@ En codage arithmétique, les caractères sont encodés en utilisant des interval
 
 L'algorithme du codage arithmétique flottante est le suivant :
 ```bash
-'
 Soit bornelnf ← 0.0
 Soit borneSup ←	1.0
 Tant que il y a des symboles à coder Faire
@@ -83,7 +82,6 @@ Tant que il y a des symboles à coder Faire
   bornelnf ← bornelnf + taille * x
 Fin Tant que
 Retourner borneSup
-'
 ```
 Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
 
@@ -173,10 +171,10 @@ séquence_encodée ← ""
 pour chaque symbole dans la séquence faire
     ajouter le code correspondant à la table des codes à la séquence encodée
 ```
-Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
+Lien pour voir le code écrit en language Python : [Huffman.py](https://github.com/lord-avigi/theorie_de_information/blob/main/huffman.py)
 
  > **Remarque: **
-> Ce codage est le plus compliqué , l'importation de plusieurs bibliothéque était une nécessité.
+> Ce codage est le plus compliqué , l'importation de la bibliothéque "heapq" est une nécessité.
 
 
 <br>
@@ -209,10 +207,10 @@ si préfixe n'est pas vide :
 retourner séquence_codée
 
 ```
-Lien pour voir le code écrit en language Python : [lz78.py](https://github.com/lord-avigi/theorie_de_information/blob/main/LZ78.py)
+Lien pour voir le code écrit en language Python : [lz78.py](https://github.com/lord-avigi/theorie_de_information/blob/main/lz78.py)
 
  > **Remarque: **
-> Ce codage est simple car il utilise un dictionnaire et une seule condition.
+> Ce codage est simple car il utilise un dictionnaire et une seule boucle.
 
 
 <br>
@@ -252,10 +250,10 @@ diviser_grouper(séquence_symboles, 0, longueur(séquence_symboles) - 1)
 
 retourner table_codes
 ```
-Lien pour voir le code écrit en language Python : [shannon_fano.py](https://github.com/lord-avigi/theorie_de_information/blob/main/Shannon_Fano.py)
+Lien pour voir le code écrit en language Python : [shannon_fano.py](https://github.com/lord-avigi/theorie_de_information/blob/main/shannon.py)
 
  > **Remarque: **
-> Ce codage est légerement difficile car il utilise une boucle itérative.
+> Ce codage est probablement le plus difficile à coder car il comporte plusieurs boucles itératives et l'utilisation de plusieurs dictionnaires.
 
 
 ---
