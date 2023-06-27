@@ -90,7 +90,7 @@ Lien pour voir le code écrit en language Python : [Arithmétique.py](https://gi
  > **Remarque: **
 > Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
 
-<br>
+
 <br>
 
 ## Codage de Hamming
@@ -133,7 +133,7 @@ Lien pour voir le code écrit en language Python : [Arithmétique.py](https://gi
  > **Remarque: **
 > Ce codage est moyennement difficile à coder car son algorithme utilise des calcul matricielle et plusieurs boucles . 
 
-<br>
+
 <br>
 
 ## Codage de Huffman
@@ -178,7 +178,7 @@ Lien pour voir le code écrit en language Python : [Arithmétique.py](https://gi
  > **Remarque: **
 > Ce codage est le plus compliqué , l'importation de plusieurs bibliothéque était une nécessité.
 
-<br>
+
 <br>
 
 ## Codage Lz78
@@ -214,7 +214,7 @@ Lien pour voir le code écrit en language Python : [lz78.py](https://github.com/
  > **Remarque: **
 > Ce codage est simple car il utilise un dictionnaire et une seule condition.
 
-<br>
+
 <br>
 
 
