@@ -256,9 +256,7 @@ Lien pour voir le code écrit en language Python : [shannon_fano.py](https://git
 > Ce codage est probablement le plus difficile à coder car il comporte plusieurs boucles itératives et l'utilisation de plusieurs dictionnaires.
 
 
----
-
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
-
+<h1 align="center">
+  <br>
+Merci d'avoir consulté ce repo ! J'espère qu'il vous a été utile et qu'il vous a permis d'apprendre quelque chose de nouveau. Bonne journée !"
+</h1>
