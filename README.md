@@ -64,6 +64,8 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 <img  src="https://cdn.discordapp.com/attachments/1122367085260062880/1123234277933465611/rsz_shannon-1200x630-1.jpg" alt="Coding"> <br>
 <em> Claude Shannon avec une machine de codage trés développée en 1950 </em>
 </p>
+<br>
+<br>
 
 
 ## Arithmétique flottante
@@ -71,17 +73,16 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+Soit bornelnf ← 0.0
+Soit borneSup ←	1.0
+Tant que il y a des symboles à coder Faire
+  C ← symbole à coder
+  Soient x, y les bornes de l'intervalle correspondant à C dans la table
+  taille ← borneSup — bornelnf;
+  borneSup ← bornelnf + taille * y
+  bornelnf ← bornelnf + taille * x
+Fin Tant que
+Retourner borneSup
 ```
 
 > **Note**
