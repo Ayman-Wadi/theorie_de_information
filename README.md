@@ -52,20 +52,13 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 ## Introduction
 
 <p>La théorie de l'information est une branche des mathématiques appliquées qui étudie la quantité d'information contenue dans des données et les méthodes de traitement, de transmission et de stockage de l'information. Elle a été développée par Claude Shannon en 1948, mais a des racines plus anciennes dans la théorie de la communication et la statistique.</p>
+<p>La théorie de l'information traite de plusieurs concepts fondamentaux, notamment :</p>
+* L'entropie : mesure de la quantité de désordre dans un système d'informations.
+* Le canal de communication : le moyen par lequel l'information est transmise d'un point à un autre, souvent soumis à des perturbations et des bruits.
+* Le codage de l'information : la représentation de l'information sous une forme qui peut être stockée, transmise et traitée efficacement.
+<p>La théorie de l'information est utilisée dans de nombreux domaines, notamment la communication, la cryptographie, la compression de données, la reconnaissance de formes et l'apprentissage automatique. Elle est également utilisée dans des applications pratiques telles que la transmission de signaux sans fil, la compression de fichiers multimédias, la correction d'erreurs dans les transmissions numériques, etc.</p>
+<p>En résumé, la théorie de l'information fournit un cadre mathématique pour comprendre et quantifier l'information, ce qui est essentiel pour la conception et l'optimisation de systèmes d'informations efficaces et fiables.</p>
 
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
 
 ## Arithmétique flottante
 
