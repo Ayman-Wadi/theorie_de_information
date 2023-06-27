@@ -45,7 +45,9 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
   <a href="#Shannon Fano">Cadage Shannon Fano</a>
 </p>
 
+<p align="center">
 ![screenshot](https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif)
+</p>
 
 ## Introduction
 
