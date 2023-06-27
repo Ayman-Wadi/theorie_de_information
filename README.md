@@ -93,23 +93,69 @@ Lien pour voir le code écrit en language Python : [Arithmétique.py](https://gi
 
 ## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+En codage arithmétique, les caractères sont encodés en utilisant des intervalles. Le résultat de ce codage est un nombre réel compris entre 0 et 1, qui est construit en associant à chaque symbole une portion de l'intervalle [0, 1[ dont la taille est proportionnelle à la probabilité d'occurrence de ce symbole. L'ordre dans lequel les symboles sont associés à des portions de l'intervalle n'a pas d'importance, tant qu'il est le même pour le codage et le décodage.
+
+L'algorithme du codage arithmétique flottante est le suivant :
+```bash
+Soit bornelnf ← 0.0
+Soit borneSup ←	1.0
+Tant que il y a des symboles à coder Faire
+  C ← symbole à coder
+  Soient x, y les bornes de l'intervalle correspondant à C dans la table
+  taille ← borneSup — bornelnf;
+  borneSup ← bornelnf + taille * y
+  bornelnf ← bornelnf + taille * x
+Fin Tant que
+Retourner borneSup
+```
+Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
+
+ > **Remarque: **
+> Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
 
 ## Emailware
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+En codage arithmétique, les caractères sont encodés en utilisant des intervalles. Le résultat de ce codage est un nombre réel compris entre 0 et 1, qui est construit en associant à chaque symbole une portion de l'intervalle [0, 1[ dont la taille est proportionnelle à la probabilité d'occurrence de ce symbole. L'ordre dans lequel les symboles sont associés à des portions de l'intervalle n'a pas d'importance, tant qu'il est le même pour le codage et le décodage.
+
+L'algorithme du codage arithmétique flottante est le suivant :
+```bash
+Soit bornelnf ← 0.0
+Soit borneSup ←	1.0
+Tant que il y a des symboles à coder Faire
+  C ← symbole à coder
+  Soient x, y les bornes de l'intervalle correspondant à C dans la table
+  taille ← borneSup — bornelnf;
+  borneSup ← bornelnf + taille * y
+  bornelnf ← bornelnf + taille * x
+Fin Tant que
+Retourner borneSup
+```
+Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
+
+ > **Remarque: **
+> Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
 
 ## Credits
 
-This software uses the following open source packages:
+En codage arithmétique, les caractères sont encodés en utilisant des intervalles. Le résultat de ce codage est un nombre réel compris entre 0 et 1, qui est construit en associant à chaque symbole une portion de l'intervalle [0, 1[ dont la taille est proportionnelle à la probabilité d'occurrence de ce symbole. L'ordre dans lequel les symboles sont associés à des portions de l'intervalle n'a pas d'importance, tant qu'il est le même pour le codage et le décodage.
 
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
+L'algorithme du codage arithmétique flottante est le suivant :
+```bash
+Soit bornelnf ← 0.0
+Soit borneSup ←	1.0
+Tant que il y a des symboles à coder Faire
+  C ← symbole à coder
+  Soient x, y les bornes de l'intervalle correspondant à C dans la table
+  taille ← borneSup — bornelnf;
+  borneSup ← bornelnf + taille * y
+  bornelnf ← bornelnf + taille * x
+Fin Tant que
+Retourner borneSup
+```
+Lien pour voir le code écrit en language Python : [Arithmétique.py](https://github.com/lord-avigi/theorie_de_information/blob/main/arithmetique.py)
+
+ > **Remarque: **
+> Ce codage est le plus simple à coder car son algorithme est direct . Cependant , il y a plusieurs variables à tapez . Le code permet la creation d'un tableau ayant 6 variables impérativement.
 
 ## Related
 
