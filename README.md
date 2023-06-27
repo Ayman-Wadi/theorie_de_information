@@ -65,8 +65,6 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 <em> Claude Shannon avec une machine de codage trés développée en 1950 </em>
 </p>
 <br>
-<br>
-<br>
 
 ## Arithmétique flottante
 
