@@ -61,7 +61,7 @@ Ceci est mon <a href="https://www.linkedin.com/in/ayman-wadi/" target="_blank">L
 <p>La théorie de l'information est utilisée dans de nombreux domaines, notamment la communication, la cryptographie, la compression de données, la reconnaissance de formes et l'apprentissage automatique. Elle est également utilisée dans des applications pratiques telles que la transmission de signaux sans fil, la compression de fichiers multimédias, la correction d'erreurs dans les transmissions numériques, etc.</p>
 <p>En résumé, la théorie de l'information fournit un cadre mathématique pour comprendre et quantifier l'information, ce qui est essentiel pour la conception et l'optimisation de systèmes d'informations efficaces et fiables.</p>
 <p align="center">
-<img  src="https://cdn.discordapp.com/attachments/1122367085260062880/1123234277933465611/rsz_shannon-1200x630-1.jpg" alt="Coding"> <br>
+<img  src="https://www.ensae.org/ressources/temp/images/100_850x566_66666666667_2656939833_3131-shannon-1200x630-1.webp" alt="Coding"> <br>
 <em> Claude Shannon avec une machine de codage trés développée en 1950 </em>
 </p>
 <br>
