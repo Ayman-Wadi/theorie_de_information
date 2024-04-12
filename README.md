@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-<img src="https://cdn.discordapp.com/attachments/1122367085260062880/1123021349691068666/ensa_logo.png" alt="ENSA TANGER" width="200"></a>
+<img src="https://ensat.ac.ma/Portail/wp-content/uploads/2021/06/cropped-ensa.png" alt="ENSA TANGER" width="200"></a>
   <br>
   <br>
  Travaux pratiques de la théorie de l'information
